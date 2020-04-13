@@ -434,7 +434,7 @@ products {
   left: 0;
   top: 0;
   transform: scaleX(0);
-  transition: transform 0.2s;
+  transition: transform 0.2s ease-in-out;
 }
 
 .product-overlay ul {
@@ -445,10 +445,10 @@ products {
 }
 
 .product-overlay ul li {
+  display: inline-block;
   width: 40px;
   height: 40px;
-  background: var(--mainColor);
-  display: inline-block;
+  background: var(--maincolor);
   text-align: center;
 }
 
